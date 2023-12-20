@@ -1,1 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    min-height: 100vh;
+    max-width: 100%;
+   
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    background:black;
+    
+}
+.box{
 
+    border: 3px solid orange;
+    padding:5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background:transparent ;
+    box-shadow:5px 10px rgb(220, 93, 2)  ;
+    width: 390px;
+    height: 540px;
+    text-align: left;
+
+
+}
+img{
+    width: 40px;
+    padding-top:-10px;
+    
+}
+.profile{
+    width: 130px; 
+    padding-top: 10px;
+    padding-left: 5px;
+    float: left;
+    border-radius: 50%;
+    object-fit: cover;
+
+
+}
+.b{
+    color: whitesmoke;
+    padding-right:15px;
+    font-size:38px;
+    float: right ;
+}
+.i{
+    width: 90%;
+    border-radius: 1px;
+    margin:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    height: 100%;
+}
+.container{
+    
+    align-items:center;
+    position: absolute  ;
+    width: 80px;
+    padding-top:0;
+    padding-left: 80px;
+    
+}
+.emoji{
+    width:300px;
+    height: 70px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background: whitesmoke;
+    border-radius: 50px;
+    cursor: pointer;
+    transform: translateY(10px);
+    transition: all 0.4s;
+    position: relative;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+
+
+}
+.emoji .e{
+    display: block;
+    width: 50px;
+    transition: all 0.4s;
+
+
+}
+
+.emoji .e:hover{
+    transform: translateY(-10%) scale(1.2);
+    filter: drop-shadow(0 1px 5px black);
+    
+}
+.btn{
+    display:inline-block;
+    text-align: left;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: grey;
+    font-family: monospace;
+    font-size: 23px;
+    border-radius: 50px;
+    margin-top: -50px;
+    
+    margin-top: 10px;
+
+}
+.hello p{
+    position: absolute;
+    top: -30px;
+    font-family: sans-serif ;
+    background-color: black;
+    color: white;
+    padding:4px 10px;
+    border-radius: 50px;
+    margin:auto;
+    padding: auto;
+    transition: all 0.2s;
+    visibility: hidden;
+    opacity: 0;
+
+}
+.hello:hover p{
+    visibility:visible;
+    opacity: 1;
+
+
+}
+.container:hover .emoji{
+    transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    
+
+
+
+}
+
+i{
+    color:  whitesmoke  ;
+    text-align:center;
+    font-size:  3vw;
+    font-size: 15px;
+    padding-left: 20px;
+}
+a{
+    display: block;
+    text-align: left;
+color:orange;
+text-decoration:none;
+
+}
+
+h1{
+    padding-top: 19px;
+    color:white;
+
+}
+p{
+    color: white;
+}
+.image{
+    margin: 2px;
+    width:370px;
+    height: 150px;
+    float: none;
+    object-fit: cover;
+
+    
+}
+.baie{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    padding:10px 50px;
+    margin: 0;
+
+    
+}
+
+a:hover{
+    color:orangered;
+    font-size: medium;
+}
+    
+.image:hover{
+    width: 380px;
+    height:170px;
+}
+btn:hover{
+    color: orange;
+    background-color:black;
+}
+
+.ko{
+    height:130px;
+}
